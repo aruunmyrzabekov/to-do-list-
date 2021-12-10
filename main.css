@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #03dfff;
+    background: linear-gradient(139deg , #03ddffcb 0%, #ff0381b6 90%);
+}
+.container{
+    position: relative;
+    padding: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.addTask{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+.addTask > input[type= "text"]{
+    width: 90%;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #666;
+    background: none;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+}
+.addTask button{
+    margin: 0 10px;
+    background: #222;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.not , .com{
+    margin:  5px 0;
+    padding: 20px;
+}
+h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+ol{
+    list-style: none;
+    counter-reset: my-counter;
+}
+ol li {
+    width: 100%;
+    padding: 18px;
+    margin: 5px 0;
+    background: #e96969bb;
+    font-size: 22px;
+    counter-increment: my-counter;
+}
+ol.com li{
+    background: #00ff62;
+}
+ol li::before{
+    content: counter(my-counter);
+    background: #fce432;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    color: #fff;
+}
+li button{
+    width: 30px;
+    height: 40px;
+    float: right;
+    padding: 5px;
+    line-height: 28px;
+    font-size: 28px;
+    margin-right: 15px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn2{
+    background:#00ff62 ;
+    border-radius: 50%;
+}
+.btn3{
+    background: #f71515bb;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
